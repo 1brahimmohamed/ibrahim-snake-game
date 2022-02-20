@@ -32,7 +32,7 @@ public class GameFrame extends JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        this.add(mainGame);
+        this.add(mainMenu);
         this.setVisible(true);
         this.add(cred);
         cred.hide();
